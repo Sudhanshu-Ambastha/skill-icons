@@ -2,6 +2,7 @@ const icons = require('./dist/icons.json');
 const iconNameList = [...new Set(Object.keys(icons).map(i => i.split('-')[0]))];
 const shortNames = {
   js: 'javascript',
+  jn: 'jupyternotebook',
   ts: 'typescript',
   py: 'python',
   tailwind: 'tailwindcss',
